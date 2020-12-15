@@ -1,0 +1,1 @@
+This is my first actual project with The Odin Project! I'm excited to learn to code with them after trying it a year ago and getting discouraged by not being able to make the google homepage. Second times the charm. Today is Tuesday December 15,2020. I'm commiting to this. 
