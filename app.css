@@ -1,0 +1,78 @@
+img {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+    margin: -70px 0 0 -170px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.searchbar {
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin: -70px 0 0 -170px;
+}
+
+
+
+.topnav {
+    display: inline;
+}
+
+
+
+.topRightSide {
+    float: right;
+}
+
+.topLeftSide {
+    float: left;
+}
+
+.footer {
+    display: inline;
+}
+
+.bottomRightSide {
+    float: right;
+}
+
+.bottomLeftSide {
+    float: left;
+}
+
+.bottomNavBar{
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+}
+
+.signIn{
+    background-color: blue;
+    border-radius: 40;
+}
+
+.searchButton{
+    display:inline;
+}
