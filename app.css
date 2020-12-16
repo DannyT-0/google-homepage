@@ -13,6 +13,8 @@ img {
 a {
     display: block;
     padding: 10px;
+    text-decoration: none;
+    color: grey;
 }
 
 ul {
@@ -20,6 +22,18 @@ ul {
     margin: 0;
     padding: 0;
 
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    border-color: gray;
+    border-style: solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: -70px 0 0 -30px;
+    
 }
 
 .searchbar {
@@ -52,6 +66,7 @@ ul {
 
 .footer {
     display: inline;
+    color: #666;
 }
 
 .bottomRightSide {
@@ -62,17 +77,41 @@ ul {
     float: left;
 }
 
-.bottomNavBar{
+.bottomNavBar {
     position: fixed;
-    bottom: 0; 
-    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 99%;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    padding-left: 10px;
+   
 }
 
-.signIn{
-    background-color: blue;
-    border-radius: 40;
+.signIn {
+    background-color: #4285f4;
+    color: white;
+    width: 75px;
+    height: 30px;
+    border-radius: 4px;
+    border: none; 
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.searchButton{
-    display:inline;
+.searchButton {
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
+    padding: 15px;
+    margin: 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    
+}
+
+.appIcon{
+    margin-top: 10px;
 }
